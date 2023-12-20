@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --background: #e2f3f8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+}
+
+body {
+  background: var(--background);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.logo a h1 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.menu-items ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.register-container {
+  margin-top: 10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 30%;
+  height: max-content;
+  padding: 20px;
+  margin: auto auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+form .register-btn {
+  height: 60px;
+  padding: 20px 20px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  background: #044b23;
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+form .register-btn:hover {
+  opacity: 0.7;
+}
+
+form input {
+  width: 100%;
+  height: 60px;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 18px;
+  border: 1px solid #bdbdbd;
+}
+
+.login-container {
+  margin-top: 10px;
+}
+
+form .login-btn {
+  height: 60px;
+  width: max-content;
+  padding: 20px 20px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  background: #da8908;
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+form .login-btn:hover {
+  opacity: 0.7;
+}
+
+.home-container {
+  margin-top: 10px;
+}
+
+.btn-orange {
+  height: 60px;
+  width: max-content;
+  padding: 20px 20px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  background: #6f2a03;
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.btn-green {
+  height: 60px;
+  width: max-content;
+  padding: 20px 20px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  background: #074923;
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.5s;
+}
